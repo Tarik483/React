@@ -1,22 +1,22 @@
-import React, { Component } from "react";
-import {Swiper,SwiperSlide} from "swiper/react";
-import SwiperCore from "swiper";
-import "./swiper/swiper-bundle.css";
-import "./slider.css";
+import React from 'react';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
+import "./style.css";
 
-
-
-
-export default class Slider extends Component {
-  render() {
-    const slides=[];
-    for {let i=}
-    return <React.Fragment>
-      <Swiper id="main">
-        {slides}
-      </Swiper>
+const Slider = () => {
+  return (
+    <div>
+      <Carousel infiniteLoop autoPlay>
+        <div className="image">
+          <img src="../../public/img/1.jpg" alt="1"></img>
+        </div>
+      </Carousel>
       
-
-    </React.Fragment>
-  }
+    </div>
+  )
 }
+
+export default Slider
+
+
+
