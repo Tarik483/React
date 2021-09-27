@@ -1,11 +1,10 @@
 import React, { Component } from "react";
-
 import "./nav.css";
 
 export default class Navbar extends Component {
   render() {
     return (
-      <div className="navbar">
+      <nav className="navbar">
         <div>
           <a href="localhost://3000">
             <img
@@ -40,7 +39,7 @@ export default class Navbar extends Component {
           <li className="phone"><i class="fas fa-phone-alt fa-1x yellow" id="call"></i><a href=".">444 62 62</a></li>
           <li className="order"><a href=".">Sipariş Ver</a></li>
         </ul>
-      </div>
+      </nav>
     );
   }
 }

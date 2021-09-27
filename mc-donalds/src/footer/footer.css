@@ -1,0 +1,94 @@
+.footer {
+  background-color: #282a2c;
+}
+.footer-top {
+  height: 189px;
+  margin-left: 1%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footer-bottom {
+  height: 189px;
+  background-color: #222425;
+  display: flex;
+  flex-direction: row;
+}
+.mc_logo {
+  width: 120px;
+  height: 110px;
+}
+.informationList {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: -30px;
+}
+.informationList li {
+  display: flex;
+  flex-direction: row;
+}
+.informationList li a {
+  color: white;
+  font-size: 20px;
+}
+.informationList li {
+  margin-left: 10%;
+}
+
+.informationList li i {
+  color: rgb(255, 208, 0);
+}
+.informationList li h3 {
+  color: rgb(255, 208, 0);
+  font-size: 40px;
+  margin-left: 30px;
+}
+.phonee h3 {
+  position: relative;
+  top: -10px;
+}
+.phonee {
+  position: relative;
+  left: 30%;
+}
+.footer-bottom ul li,
+ul li i {
+  color: #9a9a9a;
+  font-family: sans-serif;
+}
+.footer-bottom ul {
+  margin-left: 2%;
+  margin-top: 1%;
+}
+.footer-bottom ul {
+  display: flex;
+  flex-direction: row;
+}
+.h4 {
+  position: relative;
+  top: 10px;
+}
+.downloadUl {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+  left: 30%;
+}
+.downloadUl li h5{
+  position: relative;
+  top: 5%;
+}
+.footer-bottom ul li {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.footer-bottom ul li a i:hover {
+  color: rgb(255, 208, 0);
+}
+#download {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}
